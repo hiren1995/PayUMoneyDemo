@@ -7,9 +7,6 @@
 //
 
 import UIKit
-import PayUMoneyCoreSDK
-import Pods_PayUMoneyDemo
-
 
 
 class ViewController: UIViewController,UIWebViewDelegate{
@@ -19,10 +16,8 @@ class ViewController: UIViewController,UIWebViewDelegate{
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        
-        
-    }
     
+    }
     
     @IBAction func PayumoneyTapped(_ sender: UIButton) {
         
@@ -38,7 +33,6 @@ class ViewController: UIViewController,UIWebViewDelegate{
         }
     }
     
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
