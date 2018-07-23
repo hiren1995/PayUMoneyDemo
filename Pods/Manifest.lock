@@ -1,0 +1,24 @@
+PODS:
+  - CitrusGraphics (2.1.0)
+  - PayUmoney_CoreSDK (3.4)
+  - PayUmoney_PnP (2.3.2):
+    - CitrusGraphics
+    - PayUmoney_CoreSDK
+
+DEPENDENCIES:
+  - PayUmoney_PnP
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CitrusGraphics
+    - PayUmoney_CoreSDK
+    - PayUmoney_PnP
+
+SPEC CHECKSUMS:
+  CitrusGraphics: 21ca86e16760e4226d48f6e2bfbf0d40d5f8c285
+  PayUmoney_CoreSDK: 7aafdb85b201f5d89a486f367d76afdb81791b5b
+  PayUmoney_PnP: 4169afe1ff03288a9ba091a463ad99caefdefd4f
+
+PODFILE CHECKSUM: 8c701ac3bfea0866dbc0f95ef6490efa388cbe3b
+
+COCOAPODS: 1.5.0

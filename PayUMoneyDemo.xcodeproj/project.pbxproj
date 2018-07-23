@@ -14,6 +14,10 @@
 		180B6B0A2101FFCA00118B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180B6B082101FFCA00118B3B /* LaunchScreen.storyboard */; };
 		180B6B152101FFCB00118B3B /* PayUMoneyDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B6B142101FFCB00118B3B /* PayUMoneyDemoTests.swift */; };
 		180B6B202101FFCB00118B3B /* PayUMoneyDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B6B1F2101FFCB00118B3B /* PayUMoneyDemoUITests.swift */; };
+		180B6B2F2102104B00118B3B /* PayUMoneyDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B6B2E2102104B00118B3B /* PayUMoneyDemo.m */; };
+		18F525572105AAF3006F0BED /* PayUServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F525562105AAF3006F0BED /* PayUServiceHelper.m */; };
+		82C8DEF7B9E7330124E92A93 /* Pods_PayUMoneyDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206C0B9713F401DCA942031B /* Pods_PayUMoneyDemoTests.framework */; };
+		F995010214EEA9674D7FA46E /* Pods_PayUMoneyDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C915BBB6AF4164B4D9736E8 /* Pods_PayUMoneyDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C915BBB6AF4164B4D9736E8 /* Pods_PayUMoneyDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayUMoneyDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		180B6AFC2101FFC100118B3B /* PayUMoneyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayUMoneyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		180B6AFF2101FFC100118B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		180B6B012101FFC100118B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,24 @@
 		180B6B1B2101FFCB00118B3B /* PayUMoneyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUMoneyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180B6B1F2101FFCB00118B3B /* PayUMoneyDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayUMoneyDemoUITests.swift; sourceTree = "<group>"; };
 		180B6B212101FFCB00118B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180B6B2D2102104B00118B3B /* PayUMoneyDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayUMoneyDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		180B6B2E2102104B00118B3B /* PayUMoneyDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayUMoneyDemo.m; sourceTree = "<group>"; };
+		180B6B3D2102143200118B3B /* PUSAHelperClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PUSAHelperClass.h; path = PayUmoneyCustom/BusinessLayer/PUSAHelperClass.h; sourceTree = "<group>"; };
+		180B6B482102150300118B3B /* PUSAHelperClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PUSAHelperClass.m; path = PayUmoneyCustom/BusinessLayer/PUSAHelperClass.m; sourceTree = "<group>"; };
+		180B6B4B2102151E00118B3B /* PayUMoneyCoreSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayUMoneyCoreSDK.framework; path = Pods/PayUmoney_CoreSDK/CoreSDK/PayUMoneyCoreSDK.framework; sourceTree = "<group>"; };
+		180B6B4D2102152700118B3B /* PlugNPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PlugNPlay.framework; path = Pods/PayUmoney_PnP/PlugNPlay/PlugNPlay.framework; sourceTree = "<group>"; };
+		180B6B4F2102152C00118B3B /* CitrusGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CitrusGraphics.framework; path = "Pods/CitrusGraphics/Framework/graphics-sdk/CitrusGraphics.framework"; sourceTree = "<group>"; };
+		18F525562105AAF3006F0BED /* PayUServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayUServiceHelper.m; sourceTree = "<group>"; };
+		18F525582105AAFA006F0BED /* PayUServiceHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayUServiceHelper.h; sourceTree = "<group>"; };
+		206C0B9713F401DCA942031B /* Pods_PayUMoneyDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayUMoneyDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A5E68BA241F5EB5D9337E8655FE6FB /* PlugNPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PlugNPlay.framework; path = PlugNPlay/PlugNPlay.framework; sourceTree = "<group>"; };
+		5AC844CBD394737651E2182D /* Pods-PayUMoneyDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUMoneyDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayUMoneyDemoUITests/Pods-PayUMoneyDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		694083C9899F172BA75AE99D /* Pods-PayUMoneyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUMoneyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayUMoneyDemo/Pods-PayUMoneyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		836DECCC6AB7429560BB1501 /* Pods_PayUMoneyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayUMoneyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D807A3F8B3B836339545C53C /* Pods-PayUMoneyDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUMoneyDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayUMoneyDemoTests/Pods-PayUMoneyDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E76D7CA84BC4E4E89E28157D /* Pods-PayUMoneyDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUMoneyDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayUMoneyDemoUITests/Pods-PayUMoneyDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF847617CDD74D9C51CAF198 /* Pods-PayUMoneyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUMoneyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayUMoneyDemo/Pods-PayUMoneyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F5AEDB141BFB4B354FBAB87F /* Pods-PayUMoneyDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUMoneyDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayUMoneyDemoTests/Pods-PayUMoneyDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C8DEF7B9E7330124E92A93 /* Pods_PayUMoneyDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F995010214EEA9674D7FA46E /* Pods_PayUMoneyDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +102,14 @@
 		180B6AF32101FFC100118B3B = {
 			isa = PBXGroup;
 			children = (
+				180B6B342102130900118B3B /* PayUmoneyCustom */,
 				180B6AFE2101FFC100118B3B /* PayUMoneyDemo */,
 				180B6B132101FFCB00118B3B /* PayUMoneyDemoTests */,
 				180B6B1E2101FFCB00118B3B /* PayUMoneyDemoUITests */,
 				180B6AFD2101FFC100118B3B /* Products */,
+				74E3D413A4B058D1658A6259 /* Pods */,
+				4DD0C74E494030E8503B48BA /* Frameworks */,
+				18F5255521059068006F0BED /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +132,8 @@
 				180B6B062101FFCA00118B3B /* Assets.xcassets */,
 				180B6B082101FFCA00118B3B /* LaunchScreen.storyboard */,
 				180B6B0B2101FFCA00118B3B /* Info.plist */,
+				180B6B2E2102104B00118B3B /* PayUMoneyDemo.m */,
+				180B6B2D2102104B00118B3B /* PayUMoneyDemo-Bridging-Header.h */,
 			);
 			path = PayUMoneyDemo;
 			sourceTree = "<group>";
@@ -125,6 +156,51 @@
 			path = PayUMoneyDemoUITests;
 			sourceTree = "<group>";
 		};
+		180B6B342102130900118B3B /* PayUmoneyCustom */ = {
+			isa = PBXGroup;
+			children = (
+				18F525582105AAFA006F0BED /* PayUServiceHelper.h */,
+				18F525562105AAF3006F0BED /* PayUServiceHelper.m */,
+			);
+			path = PayUmoneyCustom;
+			sourceTree = "<group>";
+		};
+		18F5255521059068006F0BED /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				32A5E68BA241F5EB5D9337E8655FE6FB /* PlugNPlay.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		4DD0C74E494030E8503B48BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180B6B3D2102143200118B3B /* PUSAHelperClass.h */,
+				180B6B4B2102151E00118B3B /* PayUMoneyCoreSDK.framework */,
+				180B6B4F2102152C00118B3B /* CitrusGraphics.framework */,
+				180B6B4D2102152700118B3B /* PlugNPlay.framework */,
+				836DECCC6AB7429560BB1501 /* Pods_PayUMoneyDemo.framework */,
+				180B6B482102150300118B3B /* PUSAHelperClass.m */,
+				206C0B9713F401DCA942031B /* Pods_PayUMoneyDemoTests.framework */,
+				0C915BBB6AF4164B4D9736E8 /* Pods_PayUMoneyDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74E3D413A4B058D1658A6259 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694083C9899F172BA75AE99D /* Pods-PayUMoneyDemo.debug.xcconfig */,
+				EF847617CDD74D9C51CAF198 /* Pods-PayUMoneyDemo.release.xcconfig */,
+				D807A3F8B3B836339545C53C /* Pods-PayUMoneyDemoTests.debug.xcconfig */,
+				F5AEDB141BFB4B354FBAB87F /* Pods-PayUMoneyDemoTests.release.xcconfig */,
+				5AC844CBD394737651E2182D /* Pods-PayUMoneyDemoUITests.debug.xcconfig */,
+				E76D7CA84BC4E4E89E28157D /* Pods-PayUMoneyDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180B6B242101FFCB00118B3B /* Build configuration list for PBXNativeTarget "PayUMoneyDemo" */;
 			buildPhases = (
+				FB98DB4B75696E4C381B23EE /* [CP] Check Pods Manifest.lock */,
 				180B6AF82101FFC100118B3B /* Sources */,
 				180B6AF92101FFC100118B3B /* Frameworks */,
 				180B6AFA2101FFC100118B3B /* Resources */,
+				58C2F22887C1EC47EE01D700 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180B6B272101FFCB00118B3B /* Build configuration list for PBXNativeTarget "PayUMoneyDemoTests" */;
 			buildPhases = (
+				8E980F63446FCB3F5833D7B1 /* [CP] Check Pods Manifest.lock */,
 				180B6B0C2101FFCB00118B3B /* Sources */,
 				180B6B0D2101FFCB00118B3B /* Frameworks */,
 				180B6B0E2101FFCB00118B3B /* Resources */,
@@ -167,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180B6B2A2101FFCB00118B3B /* Build configuration list for PBXNativeTarget "PayUMoneyDemoUITests" */;
 			buildPhases = (
+				4C7597B5FB822DDAB9553C01 /* [CP] Check Pods Manifest.lock */,
 				180B6B172101FFCB00118B3B /* Sources */,
 				180B6B182101FFCB00118B3B /* Frameworks */,
 				180B6B192101FFCB00118B3B /* Resources */,
@@ -193,6 +273,7 @@
 				TargetAttributes = {
 					180B6AFB2101FFC100118B3B = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					180B6B0F2101FFCB00118B3B = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -251,6 +332,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C7597B5FB822DDAB9553C01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayUMoneyDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C2F22887C1EC47EE01D700 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PayUMoneyDemo/Pods-PayUMoneyDemo-frameworks.sh",
+				"${PODS_ROOT}/CitrusGraphics/Framework/graphics-sdk/CitrusGraphics.framework",
+				"${PODS_ROOT}/PayUmoney_CoreSDK/CoreSDK/PayUMoneyCoreSDK.framework",
+				"${PODS_ROOT}/PayUmoney_PnP/PlugNPlay/PlugNPlay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CitrusGraphics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUMoneyCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlugNPlay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayUMoneyDemo/Pods-PayUMoneyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E980F63446FCB3F5833D7B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayUMoneyDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB98DB4B75696E4C381B23EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayUMoneyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		180B6AF82101FFC100118B3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +418,8 @@
 			files = (
 				180B6B022101FFC100118B3B /* ViewController.swift in Sources */,
 				180B6B002101FFC100118B3B /* AppDelegate.swift in Sources */,
+				18F525572105AAF3006F0BED /* PayUServiceHelper.m in Sources */,
+				180B6B2F2102104B00118B3B /* PayUMoneyDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +590,19 @@
 		};
 		180B6B252101FFCB00118B3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694083C9899F172BA75AE99D /* Pods-PayUMoneyDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NWJFVU6RP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/PayUmoney_PnP/CoreSDK",
+					"$(PROJECT_DIR)/Pods/PayUmoney_CoreSDK/CoreSDK",
+					"$(PROJECT_DIR)/Pods/PayUmoney_PnP/PlugNPlay",
+					"$(PROJECT_DIR)/Pods/CitrusGraphics/Framework/graphics-sdk",
+				);
 				INFOPLIST_FILE = PayUMoneyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -439,6 +610,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kavitinfoline.PayUMoneyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayUMoneyDemo/PayUMoneyDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,10 +619,19 @@
 		};
 		180B6B262101FFCB00118B3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF847617CDD74D9C51CAF198 /* Pods-PayUMoneyDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NWJFVU6RP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/PayUmoney_PnP/CoreSDK",
+					"$(PROJECT_DIR)/Pods/PayUmoney_CoreSDK/CoreSDK",
+					"$(PROJECT_DIR)/Pods/PayUmoney_PnP/PlugNPlay",
+					"$(PROJECT_DIR)/Pods/CitrusGraphics/Framework/graphics-sdk",
+				);
 				INFOPLIST_FILE = PayUMoneyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +639,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kavitinfoline.PayUMoneyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayUMoneyDemo/PayUMoneyDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +647,7 @@
 		};
 		180B6B282101FFCB00118B3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D807A3F8B3B836339545C53C /* Pods-PayUMoneyDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +669,7 @@
 		};
 		180B6B292101FFCB00118B3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5AEDB141BFB4B354FBAB87F /* Pods-PayUMoneyDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +691,7 @@
 		};
 		180B6B2B2101FFCB00118B3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC844CBD394737651E2182D /* Pods-PayUMoneyDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +712,7 @@
 		};
 		180B6B2C2101FFCB00118B3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76D7CA84BC4E4E89E28157D /* Pods-PayUMoneyDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
